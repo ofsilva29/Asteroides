@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link href='//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/readable/bootstrap.min.css' rel='stylesheet'>
+    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet'>
+    <link href='../css/main.css' rel='stylesheet'>
+    <script src='../js/jquery-1.4.1.min.js'></script>
+    <script src='../js/vector_battle_regular.typeface.js'></script>
+    <script src='../js/game.js'></script>
+    <script src='../js/ipad.js'></script>
+    <link href='/index.xml' rel='alternate' title='Otacir Fernando - feed' type='application/atom+xml'>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+    <title>Otacir Fernando - CPW II</title>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-24160622-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+    <body class='html5'>
+        <header class='container-fluid page-header'>
+        <div class='container'>
+        <div class='row col-md-8 col-md-offset-1'>
+      <h1> <a href='/'>Otacir Fernando - Trabalho Final</a> </h1>
+        </div>
+        </div>
+      </header>
+        <section class='container main-content'>
+        <div class='row col-md-8 col-md-offset-1'>
+        <section class='content'>
+          <style>
+            #canvas { border:1px solid rgb(99, 20, 20); top:0px; left:0px; }
+            .button { position:absolute; border:1px solid rgb(226, 61, 61); }
+            #left-controls { position:absolute; left:1px; bottom:0px; display:none; }
+            #right-controls { position:absolute; right:1px; bottom:0px; display:none; }
+            #up { width:200px; height:100px; bottom:100px;}
+            #down { width:200px; height:100px; bottom:100px;}
+            #left { width:100px; height:100px; bottom:0px;}
+            #right { width:100px; height:100px; bottom:0px; left:100px; }
+            #space { width:200px; height:200px; bottom:0px; right:0px; }
+          </style>
+        <script src='../js/jquery-1.4.1.min.js'></script>
+        <script src='../js/vector_battle_regular.typeface.js'></script>
+        <script src='../js/game.js'></script>
+        <script src='../js/ipad.js'></script>
+        <div id='game-container' style='width:800px;'>
+          <canvas height='540' id='canvas' style='border:1px solid rgb(103, 121, 160);' width='780'></canvas>
+          <div id='left-controls'>
+          <div class='button' id='up'>THRUST</div>
+          <div class='button' id='down'>BRAKE</div>
+          <div class='button' id='left'>LEFT</div>
+          <div class='button' id='right'>RIGHT</div>
+        </div>
+        <div id='right-controls'>
+        <div class='button' id='space'>FIRE</div>
+        </div>
+        </div>
+  <p>
+    Pressione <strong>Space</strong> para atirar, e as teclas
+    <strong>←</strong> ; <strong>→</strong> ; <strong>↑</strong> ou <strong>↓</strong> para direcionar a espaçonave.</br>
+    Pressione <strong>P</strong> para pausar e <strong>G</strong> para mudança de cor e demonstração da grade do sistema.
+  </p>
+  <p>
+    Sugestão de Navegadores: Chrome e Firefox. <br>
+    Este jogo NÃO funcionará no Edge porque não suporta o elemento canvas.
+  </p>
+
+    <footer> <b>IFRS/2023</b>
+    </footer>
+  </body>
+</html>

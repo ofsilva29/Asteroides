@@ -1,0 +1,77 @@
+html {
+  background: url('../images/fundo.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(211, 99, 99, 0);
+}
+
+a, a:visited, a:active, a:focus, a:hover {
+  color: #070707;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(91, 91, 175);
+}
+
+.page-header {
+  border: none;
+  background-color: rgba(163, 161, 24, 0.6);
+  padding-bottom: 2ex;
+  margin-bottom: 40px;
+}
+
+.main-content {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 10ex;
+  padding-bottom: 5ex;
+  background-color: #91a0e242;
+  justify-content: center;
+  display: flex;
+}
+
+body.index .main-content {
+  display: flex;
+}
+
+article {
+  margin-bottom: 8ex;
+}
+
+article section.content {
+  margin-top: 4ex;
+}
+
+section.content a {
+  color: rgb(102, 53, 53);
+}
+
+section.content a:hover {
+  color: #816e6e;
+}
+
+article section.comments {
+  margin-top: 5ex;
+}
+
+.date {
+  font-size: 1em;
+}
+
+footer {
+  padding: 3ex;
+}
+
+figure {
+  margin: 3ex;
+}
+
+figure figcaption {
+  margin-top: 2ex;
+}
